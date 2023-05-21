@@ -15,4 +15,5 @@ export const defaultTheme = {
   titleFontWeight: 'bold',
   fontSizeDefault: "18px",
   pageWidth: '1280px',
+  indent: "20px",
 };
