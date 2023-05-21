@@ -1,17 +1,20 @@
 import React from "react";
-import Title, { TitleSize } from "../../ui/title/title";
-import "./style.css"
+import Title, { TitleSize, TitleLevel } from "../../ui/title/title";
+import "./style"
+import { StyledSection, Text, TextWrapper, Container } from "./style";
 
 function About() {
     return (
-        <div className="container">
-            <section className="about">
-                <div className="about__wrapper">
-                    <Title size={TitleSize.BIG}>Магазин фермерских продуктов с доставкой</Title>
-                    <p className="about__text">Все продукты изготавливаются под заказ. Фермеры начинают готовить продукты за день до отправки заказа клиентам. Именно поэтому мы принимаем заказы заранее и доставляем продукты максимально свежими.</p>
-                </div>
-            </section>
-        </div>
+        <StyledSection>
+            <Container>
+                <TextWrapper>
+                    <Title size={TitleSize.BIG} level={TitleLevel.H1}>Магазин фермерских продуктов с доставкой</Title>
+                    <Text>
+                        Все продукты изготавливаются под заказ. Фермеры начинают готовить продукты за день до отправки заказа клиентам. Именно поэтому мы принимаем заказы заранее и доставляем продукты максимально свежими.
+                    </Text>
+                </TextWrapper>
+            </Container>
+        </StyledSection>
     )
 }
 
