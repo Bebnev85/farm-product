@@ -1,20 +1,20 @@
-.logo__link {
+import styled from "styled-components";
+
+export const StyledLogo = styled.a`
     display: flex;
     height: 44px;
     align-items: center;
     text-decoration: none;
-}
+`;
 
-.logo__link:hover {
-    text-decoration: none;
-}
-
-.logo__text {
+const LogoText = styled.span`
     display: flex;
     height: 32px;
     margin-left: 24px;
     font-weight: 700;
     font-size: 28px;
     line-height: 42px;
-    color: #333333;
-}
+    color: ${(props) => props.theme.blackColor};
+`;
+
+export { LogoText };
