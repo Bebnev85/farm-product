@@ -1,4 +1,6 @@
-.footer {
+import styled from "styled-components";
+
+export const StyledFooter = styled.footer`
     width: 1280px;
     display: flex;
     padding-top: 0;
@@ -8,12 +10,12 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: ${(props) => props.theme.pagePadding};
+    padding-right: ${(props) => props.theme.pagePadding};
     box-sizing: border-box;
-  }
-  
-  .footer__copyright {
+`
+
+export const Copyright = styled.span`
     min-height: 43px;
     min-width: 148px;
     max-width: 700px;
@@ -23,5 +25,5 @@
     vertical-align: middle;
     text-align: center;
     box-sizing: border-box;
-  }
-  
+    color: ${(props) => props.theme.blackColor}
+`
