@@ -1,0 +1,18 @@
+export const defaultTheme = {
+  blackTextColor: '#333333',
+  whiteTextColor: '#ffffff',
+  whiteBgColor: '#ffffff',
+  lightBlueBgColor: '#d8ecfe',
+  lightGeenBgColor: '#e1edce',
+  darkGreenColor: '#88aa4d',
+  lightRedBgColor: '#f8ddd7',
+  darkRedBgColor: '#f75531',
+  orangeBgColor: '#fc9b27',
+  cardPadding: '20px',
+  pagePadding: '90px',
+  fontFamily: '"Inter", "Arial", sans-serif',
+  titleLineHeight: '115%',
+  titleFontWeight: 'bold',
+  fontSizeDefault: "18px",
+  pageWidth: '1280px',
+};

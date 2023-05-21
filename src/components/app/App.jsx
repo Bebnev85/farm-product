@@ -1,9 +1,13 @@
-import './App.css';
 import PageWrapper from '../layout/page-wrapper/page-wrapper';
+import advantageList from "../../mocks/mocks";
+import { GlobalStyle } from './style';
 
 function App() {
   return (
-    <PageWrapper />
+    <>
+      <GlobalStyle />
+      <PageWrapper qualityList = {advantageList} />
+    </>
   )
 }
 
