@@ -3,11 +3,11 @@ import MainPage from "../../pages/main-page/main-page";
 import Footer from "../footer/footer";
 import Header from "../header/header";
 
-function PageWrapper({...qualityList}) {
+function PageWrapper({children, features}) {
     return (
         <>
             <Header />
-            <MainPage {...qualityList} />
+            <MainPage features = {features} />
             <Footer />
         </>
     )

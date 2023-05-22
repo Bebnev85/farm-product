@@ -1,4 +1,4 @@
-const advantageList = [
+const features = [
     {
         id: 0,
         isNatural: true,
@@ -18,7 +18,7 @@ const advantageList = [
         isNatural: true,
         ico: "./mocks/image/plant.svg",
         title: "Натуральные продукты",
-        description: "Поставляем местные органические продукты выращенные без пестицидов и химических удобрений."
+        description: "Поставляем местные органические продукты выращенные\u00A0без пестицидов и химических удобрений."
     },
     {
         id: 3,
@@ -29,4 +29,4 @@ const advantageList = [
     }
 ];
 
-export default advantageList
+export default features

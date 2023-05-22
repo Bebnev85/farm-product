@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const StyledAdvategeCard = styled.div`
     display: flex;
+    width: 540px;
+    min-height: 197px;
     flex-direction: column;
     gap: 20px;
     padding: 20px;   
@@ -26,6 +28,7 @@ export const Paragraph = styled.p`
     font-weight: 400;
     line-height: 150%;
     font-size: 18px;
+    text-align: left;
 `;
 
 export const Image = styled.div`

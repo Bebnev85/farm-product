@@ -1,27 +1,22 @@
 import React from "react";
-import Title from "../../ui/title/title";
-import Button from "../../ui/button/button";
 import AdvantageCard from "../../ui/advantage-card/advantage-card"
-import "./style.css";
+import { StyledAdvantages, StyledButton, StyledTitle } from "./style";
+import { Ul, Li } from "styled"
 
-function Advantages({qualityList}) {
-    return (
-        <section className="advantage-list">
-            {qualityList?.length > 0 ? (
-                <>
-                    <Title>Почему фермерские продукты лучше?</Title>
-                    <ul className="advantage-list__list">
-                        {qualityList.map((quality) => (
-                            <li className="advantage-list__itrm" key={quality.id}>
-                                <AdvantageCard {...quality} />
-                            </li>
-                        ))}
-                    </ul>
-                    <Button minwigth={353}>Купить</Button>
-                </>
-            ) : null}
-        </section>
-    )
+function Advantages({features}) {
+    return features && features.length ? (
+        <StyledAdvantages>
+            <StyledTitle as={"h2"}>Почему фермерские продукты лучше?</StyledTitle>
+            <Ul $isGridList>
+                {features.map((feature) => (
+                    <Li key={feature.id}>
+                        <AdvantageCard {...feature} />
+                    </Li>
+                ))}
+            </Ul>
+            <StyledButton link="/buy">Купить</StyledButton>
+        </StyledAdvantages>
+    ) : null
 }
 
 export default Advantages;

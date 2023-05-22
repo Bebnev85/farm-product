@@ -2,11 +2,11 @@ import React from "react";
 import About from "../../blocks/about/about";
 import Advantages from "../../blocks/advantages/advantages";
 
-function MainPage({qualityList}) {
+function MainPage({ features }) {
     return (
         <main>
             <About />
-            <Advantages qualityList = {qualityList} />
+            <Advantages features = { features } />
         </main>
     )
 }

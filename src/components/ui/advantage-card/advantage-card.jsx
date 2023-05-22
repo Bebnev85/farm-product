@@ -10,7 +10,7 @@ function AdvantageCard({isNatural, ico, title, description}) {
                 <Image $ico = {ico}/>
                 <CardTitle>
                     <Feature isNatural = {isNatural}></Feature>
-                    <Title size={TitleSize.SMALL}>{title}</Title>
+                    <Title as="h3" size={TitleSize.EXTRA_SMALL}>{title}</Title>
                 </CardTitle>
             </Header>
             <Paragraph>{description}</Paragraph>
