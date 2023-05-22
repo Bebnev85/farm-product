@@ -1,6 +1,5 @@
 import React from "react";
 import Title, { TitleSize, TitleLevel } from "../../ui/title/title";
-import "./style"
 import { StyledSection, Text, TextWrapper, Container } from "./style";
 
 function About() {

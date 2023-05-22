@@ -1,34 +1,18 @@
 import React from "react";
-import "./style.css";
+import { StyledFeature } from "./style";
 
-export const productType = {
-    FARM: "FARM",
-    SHOP: "SHOP"
+export const ownerText = {
+    FARM: "Фермерские продукты",
+    SHOP: "Магазиннные продукты"
 };
 
-function Feature({children}) {
-    console.log(children)
-    let bgColor;
-    let text;
-    switch (children) {
-        case productType.FARM:
-            bgColor = "#88AA4D";
-            text = "Фермерские продукты";
-            break;
-        case productType.SHOP:
-            bgColor = "#F75531";
-            text = "Магазиннные продукты";
-            break;
-        default:
-            bgColor = "red";
-            text = "";
-    }
+function Feature({isNatural}) {
+    const text = isNatural ? ownerText.FARM : ownerText.SHOP;
     return (
-        <p className="feature-text"
-        style = {{backgroundColor: `${bgColor}`}}>
+        <StyledFeature $isNatural = { isNatural }>
             {text}
-        </p>
-    );
+        </StyledFeature>
+    )
 }
 
 export default Feature;
