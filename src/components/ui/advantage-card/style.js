@@ -35,4 +35,5 @@ export const Image = styled.div`
     width: 56px;
     height: 56px;
     background-repeat: no-repeat;
+    background-image: url(${(props) => props.$ico});
 `;

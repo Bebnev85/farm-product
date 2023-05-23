@@ -5,7 +5,7 @@ import { StyledAdvategeCard, Header, CardTitle, Paragraph, Image } from "./style
 
 function AdvantageCard({isNatural, ico, title, description}) {
     return (
-        <StyledAdvategeCard $isNatural = {isNatural}>
+        <StyledAdvategeCard $isNatural = {isNatural}  $ico = {ico}>
             <Header>
                 <Image $ico = {ico}/>
                 <CardTitle>
