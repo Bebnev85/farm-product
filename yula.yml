@@ -2,7 +2,7 @@
 <yml_catalog date="2023-06-30 18:40">
   <shop>
     <offers>
-	    <offer id="1">
+	<offer id="1">
         <youlaCategoryId>6</youlaCategoryId>
         <youlaSubcategoryId>601</youlaSubcategoryId>
         <address>Москва, Калужско-Рижская линия, метро Тёплый Стан</address>
