@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2023-06-30 18:40">
+  <shop>
+    <offers>
+	    <offer id="1">
+        <youlaCategoryId>6</youlaCategoryId>
+        <youlaSubcategoryId>601</youlaSubcategoryId>
+        <address>Москва, Калужско-Рижская линия, метро Тёплый Стан</address>
+        <price>21760</price>
+        <phone>8 977 309-92-82</phone>
+        <name>Сварочный аппарат инверторный Ресанта саи 315 3ф</name>
+        <picture>https://yasenevo.msk.resantagroup.ru/wa-data/public/shop/products/10/00/10/images/6499/6499.750x0.png</picture>
+        <picture>https://yasenevo.msk.resantagroup.ru/wa-data/public/shop/products/10/00/10/images/6500/6500.750x0.png</picture>
+        <picture>https://yasenevo.msk.resantagroup.ru/wa-data/public/shop/products/10/00/10/images/6501/6501.750x0.png</picture>
+        <picture>https://yasenevo.msk.resantagroup.ru/wa-data/public/shop/products/10/00/10/images/6504/6504.750x0.png</picture>
+        <picture>https://yasenevo.msk.resantagroup.ru/wa-data/public/shop/products/10/00/10/images/6502/6502.750x0.png</picture>
+        <picture>https://yasenevo.msk.resantagroup.ru/wa-data/public/shop/products/10/00/10/images/6503/6503.750x0.png</picture>
+        <description>Сварочный аппарат инверторный «Ресанта» предназначен для ручной дуговой сварки штучным покрытым электродом на постоянном токе и электродом с рутиловым и основным покрытием (режим ММА). Аппарат работает от трёхфазной сети с напряжением 380В.
+Все сварочные инверторные аппараты "САИ" имеют защиту от перегрева, и оснащены функциями «ANTI STICK» (антизалипание), «HOT START» (горячий старт) и «ARC FORCE» (форсаж дуги).
+Артикул: 65/25
+Характеристики:
+Эффективный потребляемый ток, А	3х16
+Потребляемая мощность ММА, кВА	10.5
+Сварочный ток ММА, А	315
+Диапазон регулирования сварочного тока, А	20 — 315
+Входное рабочее напряжение, В	342 — 418
+Напряжение холостого хода, В	70
+Максимальный диаметр электрода, мм	6
+Функция Antistick	Да
+Функция HOT START	Да
+Напряжение дуги, В	10.8 — 32.6
+Класс защиты	IP21
+Рабочий диапазон температуры окружающей среды, °C	-20...+50
+Габариты, см	42.3*22.2*30.3
+Вес без упаковки, кг	11.9
+Класс товара	Профессиональный
+Наличие сетевой вилки	Да
+Кейс	Нет
+Мощность, Вт	9500
+Напряжение сети, В	380
+Гарантия, мес.	24
+Страна бренда	Латвия
+Страна производства	Китай
+Вес	15.62 кг
+Продолжительность нагружения, %	70% 315A
+Бренд	Ресанта
+Функция ArcForce	Да
+Коэффициент мощности	0.7
+Штрихкод EAN-13	4606059017257
+Модель	САИ-315
+</description>
+        <managerName>Роман</managerName>
+      </offer>
+    </offers>
+   </shop>
+</yml_catalog>
